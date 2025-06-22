@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  ADDED IMAGE VIA LOCAL STORAGE
+</head>
+<body>
+  <img src="https://thumbs.dreamstime.com/b/red-apple-isolated-clipping-path-19130134.jpg"alt="local image" width="200">
+<p>ADDED IMAGE VIA CDN</p>
+  <img src="https://ik.imagekit.io/qjvkbnaou/local%20image.jpg.png?updatedAt=1750613044457" alt="CDN Image" width="200">
+
+  <!-- Video -->
+  <video width="320" height="240" controls>
+    <source src="https://ik.imagekit.io/qjvkbnaou/sample-video.mp4?updatedAt=1750612821595" type="video/mp4">
+  </video>
+
+  <form>
+    <label>USERNAME:</label>
+    <input type="text" placeholder="ENTER USERNAME"><br><br>
+
+    <label>PASSWORD:</label>
+    <input type="password" placeholder="ENTER PASSWORD">
+  </form>
+
+  <!-- HTML Entities -->
+  <p>&lt; — less than</p>
+  <p>&gt; — greater than</p>
+  <p>&amp; — ampersand</p>
+  <p>&copy; — copyright</p>
+  <p>&trade; — trademark</p>
+
+</body>
+</html>
